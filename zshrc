@@ -98,5 +98,3 @@ source /usr/local/opt/autoenv/activate.sh
 export PATH=~/.local/bin:$PATH
 
 export PATH="$HOME/.fastlane/bin:$PATH"
-
-alias vim="/usr/local/Cellar/vim/8.1.0001/bin/vim"
