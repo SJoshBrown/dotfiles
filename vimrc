@@ -4,7 +4,10 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'bf4/vim-dark_eyes'
+
+Plugin 'phanviet/vim-monokai-pro'
+Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -50,4 +53,5 @@ set ignorecase
 set smartcase 
 
 " Color
-colo dark_eyes
+set termguicolors
+colorscheme monokai_pro
