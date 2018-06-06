@@ -52,6 +52,10 @@ set incsearch
 set ignorecase
 set smartcase 
 
+" NERDtree
+map <C-n> :NERDTreeToggle<CR>
+autocmd vimenter * NERDTree
+
 " Color
 set termguicolors
 colorscheme monokai_pro
