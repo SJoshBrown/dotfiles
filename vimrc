@@ -59,3 +59,5 @@ autocmd vimenter * NERDTree
 " Color
 set termguicolors
 colorscheme monokai_pro
+
+set cursorline
