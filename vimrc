@@ -8,6 +8,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'sickill/vim-monokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
@@ -61,3 +62,6 @@ syntax enable
 colorscheme monokai
 
 set cursorline
+
+" YouCompleteMe
+let g:ycm_server_python_interpreter = '/usr/local/bin/python3'
