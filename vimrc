@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'phanviet/vim-monokai-pro'
+Plugin 'sickill/vim-monokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 
@@ -57,7 +57,7 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd vimenter * NERDTree
 
 " Color
-set termguicolors
-colorscheme monokai_pro
+syntax enable
+colorscheme monokai
 
 set cursorline
