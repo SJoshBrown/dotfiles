@@ -23,6 +23,7 @@ if has('mouse')
 endif
 
 set number
+set relativenumber
 set clipboard=unnamed
 
 set nobackup
