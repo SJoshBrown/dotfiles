@@ -9,6 +9,7 @@ Plugin 'sickill/vim-monokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
 filetype plugin indent on
@@ -53,6 +54,10 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase 
+
+" format XML
+com! FormatXML :%!python3 -c "import xml.dom.minidom, sys; print(xml.dom.minidom.parse(sys.stdin).toprettyxml())"
+nnoremap = :FormatXML<Cr>
 
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
