@@ -11,6 +11,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'ntpeters/vim-better-whitespace'
 
+Plugin 'nvie/vim-flake8'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -29,8 +31,6 @@ set clipboard=unnamed
 
 set nobackup
 set noswapfile
-
-syntax on
 
 " window movement
 map <c-j> <c-w>j
@@ -71,3 +71,7 @@ set cursorline
 
 " YouCompleteMe
 let g:ycm_server_python_interpreter = '/usr/local/bin/python3'
+
+" vim-flake8
+autocmd BufWritePost *.py call Flake8()
+let g:flake8_show_in_gutter=1
