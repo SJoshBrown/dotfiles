@@ -10,6 +10,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'airblade/vim-gitgutter'
 
 Plugin 'nvie/vim-flake8'
 
@@ -75,3 +76,6 @@ let g:ycm_server_python_interpreter = '/usr/local/bin/python3'
 " vim-flake8
 autocmd BufWritePost *.py call Flake8()
 let g:flake8_show_in_gutter=1
+
+" for git gutter
+set updatetime=100
