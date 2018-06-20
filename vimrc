@@ -28,6 +28,7 @@ if has('mouse')
 endif
 
 set number
+set colorcolumn=99
 set relativenumber
 set clipboard=unnamed
 
