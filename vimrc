@@ -64,7 +64,6 @@ nnoremap = :FormatXML<Cr>
 
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
-autocmd vimenter * NERDTree
 
 " Color
 syntax enable
