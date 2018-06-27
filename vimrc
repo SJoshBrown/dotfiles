@@ -37,6 +37,10 @@ set clipboard=unnamed
 set nobackup
 set noswapfile
 
+" reload files changed on disk
+set autoread
+au FocusGained,BufEnter * :checktime
+
 " window movement
 map <c-j> <c-w>j
 map <c-k> <c-w>k

@@ -84,17 +84,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zshll"
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
-eval "$(pyenv init -)"
-export PATH="/usr/local/sbin:$PATH"
-alias pyvirt="pyenv virtualenvwrapper"
-alias pyinstall="pyenv install"
-# bootstrap autoenv
-source /usr/local/opt/autoenv/activate.sh
-
-# AWS
-export PATH=~/.local/bin:$PATH
-
-export PATH="$HOME/.fastlane/bin:$PATH"
