@@ -70,6 +70,7 @@ nnoremap = :FormatXML<Cr>
 
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 " Color
 syntax enable
