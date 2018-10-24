@@ -15,6 +15,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-fugitive'
+Plugin 'embear/vim-localvimrc'
 
 Plugin 'nvie/vim-flake8'
 
